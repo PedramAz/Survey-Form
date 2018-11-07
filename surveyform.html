@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <main id="main">
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <title>Survey Form</title>
+    </head>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <form id="survey-form">
+    <label for="name" id="name-label">Name</label>
+    <input id="name" type="text" name="name" required placeholder="John"><br>
+    <label for="email" id="email-label">email</label>
+    <input id="email" type="email" name="email" required placeholder="info@gmail.com"><br>
+    <label for="number" id="number-label">Number</label>
+    <input id="number" type="number" name="number" min="1" max="99" placeholder="0">
+    <br>
+    <label for="dropdown">Affiliation</label>
+    <select id="dropdown" name="dropdown">
+        <option value="Please select">Please Select</option>
+        <option value="Student">Student</option>
+        <option value="Employee">Employee</option>
+    </select>
+    <br>
+    <label for="radio">Male</label>
+    <input type="radio" name="Gender" value="Male">
+    <label for="radio">Female</label>
+    <input type="radio" name="Gender" value="Female">
+    <br>
+    <label for="Degree">BS</label>
+    <input type="checkbox" name="Degree" value="BS">
+    <label for="Degree">MS</label>
+    <input type="checkbox" name="Degree" value="MS">
+    <br>
+    <label for="comment">Comment</label>
+    <textarea name="comment"></textarea>
+    <br>
+    <input id="submit" type="submit" name="submit" value="Submit">
+    </form>
+  </main>
+</html>
+
